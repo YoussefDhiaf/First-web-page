@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Portfolio</title>
+  </head>
+  <body>
+
+    <header>
+      <h1>Student Portfolio</h1>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#work">Projects</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section id="home">
+      <h2>Welcome to My Portfolio</h2>
+      <p>
+        Discover my journey and projects as a student in Network and System Administration. Explore to learn more about my skills and experiences!
+      </p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/refaS3LM06o?si=kJRC1TtH4BDyvAYh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        <img
+        src="300946299_116268337853805_8654290709437630952_n.jpg"
+        alt="Youssef Dhiaf"
+        width="110"
+        height="110"
+        />
+      </p>
+      <p>
+        I am Youssef Dhiaf, a 22-year-old student at the Institut Supérieur des Études Technologiques. I am currently pursuing my studies in Network and System Administration, where I am learning to manage and secure computer networks and systems.
+      </p>
+    </section>
+
+    <section id="work">
+      <h2>My Projects</h2>
+      <ul>
+        <li>
+          <a href="https://www.researchgate.net/publication/340813045_Design_and_implementation_of_secure_communication_protocols_for_Internet_of_Things_systems">Project 1</a>: A network configuration project, implementing secure communication protocols.
+        </li>
+        <li>
+          <a href="https://attuneops.io/network-administrator-tools/">project 2</a>: Developing a system administration tool for monitoring network performance.
+        </li>
+        <li>
+          <a href="https://www.simplilearn.com/top-cybersecurity-trends-article">project 3</a>: Research on the latest trends in cybersecurity and their applications.
+        </li>
+      </ul>
+    </section>
+
+    <section id="resume">
+      <h2>Resume</h2>
+      <p>
+        Download my resume to learn more about my academic achievements and technical skills.
+      </p>
+      <a href="CV.pdf" download>Download Resume</a>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form action="submit_form" method="post">
+        <label for="name">Name:</label><br />
+        <input type="text" id="name" name="name" required /><br /><br />
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" required /><br /><br />
+        <label for="message">Message:</label><br />
+        <textarea id="message" name="message" rows="4" required></textarea
+        ><br /><br />
+        <input type="submit" value="Send" />
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 Student Portfolio. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
